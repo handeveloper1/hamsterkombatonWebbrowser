@@ -14,7 +14,6 @@
 (function() {
     'use strict';
 
-
     function replaceScriptUrl() {
         const urlsToReplace = [
             'https://hamsterkombat.io/js/telegram-web-app.js',
@@ -27,8 +26,6 @@
                 const newScript = document.createElement('script');
                 newScript.src = newUrl;
                 newScript.type = 'text/javascript';
-
-                // Заменяем старый тег на новый
                 script.parentNode.replaceChild(newScript, script);
                 console.log('Script URL replaced:', newScript.src);
             }
