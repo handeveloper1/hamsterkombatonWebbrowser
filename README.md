@@ -1,4 +1,4 @@
-# hamsterkombatonWebbrowser
+# hamsterkombat on Webbrowser
 HamsterKombat on Webbrowser - Hamster kombat tarayıcıda açma
 
 
